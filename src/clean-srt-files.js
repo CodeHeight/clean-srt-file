@@ -36,7 +36,7 @@ module.exports = (files, removeMarks = false) => {
     changes = replace.sync({    
         files: files,
         from: /<\/font>/gm,
-        to: "",
+        to: " ",
     });
     console.log(changes);
     /**

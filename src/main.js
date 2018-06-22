@@ -3,8 +3,8 @@ module.exports = function() {
     const cleanSrtFilesAt = require('./clean-srt-files');
     
     const ALL_SRT_FILES = '**.srt';
-    const dirPath = process.argv[2] || '/Users/boostup/Downloads';
-    const removeMarks = process.argv[3] || 'N';
+    const dirPath = process.argv[2] || '/Temp';
+    const removeMarks = process.argv[3] || 'Y';
 
     console.info(`Searching for .srt files (${dirPath}\/${ALL_SRT_FILES})...`)
     
